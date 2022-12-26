@@ -1,0 +1,69 @@
+.upper{
+    display: flex;
+    width: 259px;
+    margin-left: auto;
+    margin-right: 30px;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.upper a{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: right;
+}
+
+.all_body{
+    display: flex;
+    justify-content: space-between;
+    margin: 158px auto 0 ;
+}
+
+.text_body h1{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    color: #21243D;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+main{
+    width: 80%;
+    margin: 0 auto ;
+}
+
+.text_body p{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.text_body button{
+    margin-top: 15px;
+    background: #FF6464;
+    border: none;
+    border-radius: 2px;
+    width: 208px;
+    height: 47px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+#layer1{
+    z-index: 2;
+}
+
+#layer2{
+    z-index: 1;
+}
